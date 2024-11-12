@@ -170,6 +170,17 @@ local plugins = {
         "theprimeagen/vim-be-good",
         lazy = true,
         cmd = "VimBeGood"
-    }
+    },
+
+    -- Install hardtime to prevent bad habits
+    {
+        "m4xshen/hardtime.nvim",
+        dependencies = { "MunifTanjim/nui.nvim", "nvim-lua/plenary.nvim" },
+        opts = {}
+    },
+
+    {
+        "declancm/cinnamon.nvim",
+    },
 }
 require("lazy").setup({ plugins, {} })

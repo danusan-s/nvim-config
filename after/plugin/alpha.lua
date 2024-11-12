@@ -20,6 +20,7 @@ dashboard.section.buttons.val = {
     dashboard.button("f", "  > Find file", ":Telescope find_files<CR>"),
     dashboard.button("r", "  > Recent", ":Telescope oldfiles<CR>"),
     dashboard.button("v", "  > Practice Vim", ":VimBeGood<CR>"),
+    dashboard.button("c", "󰄨 > Receive contest files", ":CompetiTest receive contest<CR>"),
     dashboard.button("q", "󰩈 > Quit NVIM", ":qa<CR>"),
 }
 
