@@ -182,5 +182,9 @@ local plugins = {
     {
         "declancm/cinnamon.nvim",
     },
+
+    {
+        'Vigemus/iron.nvim'
+    },
 }
 require("lazy").setup({ plugins, {} })
