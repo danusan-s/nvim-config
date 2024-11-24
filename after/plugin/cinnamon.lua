@@ -5,6 +5,8 @@ cinnamon.setup()
 -- Centered scrolling:
 vim.keymap.set("n", "<C-U>", function() cinnamon.scroll("<C-U>zz") end)
 vim.keymap.set("n", "<C-D>", function() cinnamon.scroll("<C-D>zz") end)
+vim.keymap.set("v", "<C-U>", function() cinnamon.scroll("<C-U>zz") end)
+vim.keymap.set("v", "<C-D>", function() cinnamon.scroll("<C-D>zz") end)
 
 -- LSP:
 vim.keymap.set("n", "gd", function() cinnamon.scroll(vim.lsp.buf.definition) end)
